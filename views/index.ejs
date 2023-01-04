@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorten URL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <p class="navbar-brand">Shortly</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="menu.png" style="width: 32px;" alt=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn">Sign In</button>
+                <button class="btn" type="submit">Log In</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <section class="_1">
+          <div class="row">
+              <div class="col-lg-8">
+                  <h1>More than just shorter links</h1>
+                  <p>Build your brand's recognition and get detailed
+                    insights on how your links are performing.</p>
+                    <button>Get Started</button>
+              </div>
+              <div class="col-lg-4">
+                  <img src="/images/illustration-working.svg" alt="">
+              </div>
+          </div>
+      </section>
+      <section class="_2">
+          <section class="shorten">
+            <form action="/" method="post">
+                <input required type="text" name="link" id="link" placeholder="Shorten a link here">
+                <button class="short" type="submit">Shorten it!</button>
+            </form>
+          </section>
+        <div class="item">
+            <p class="long_url"><%= long_url %></p>
+            <button class="copy">Copy</button>
+            <a target="_blank" class="short_url" href=<%= additional %>> <%= additional %> </a>
+        </div>
+        <h2 class="ad_st">Advanced Statistics</h2>
+        <p class="par">Track how your links are performing across the web with
+            our advanced statistics dashboard.</p>
+        <div class="row perks">
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/icon-brand-recognition.svg" alt="">
+                <h4>Brand Recognition</h4>
+                <p>Boost your brand recognition with
+                    each click. Generic links don't mean c
+                    thing. Branded links help instil
+                    contidence in vour conrent</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 second">
+                <img src="/images/icon-detailed-records.svg" alt="">
+                <h4>Great Ideas</h4>
+                <p>Gain insights into who is clicking your
+                    links. Knowing when and where
+                    people engage witn your content
+                    neios intorm beter decisions.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 lst">
+                <img src="/images/icon-fully-customizable.svg" alt="">
+                <h4>Fully Customizable</h4>
+                <p> content discoverability through customizable links.</p>
+            </div>
+        </div>
+      </section>
+      <section class="boost">
+          <h1>Boost your links now</h1>
+          <button type="submit">Get Started</button>
+      </section>
+      <footer>
+          <div class="row">
+              <div class="col-3">
+                <p class="logo">Shortly</p>
+              </div>
+              <div class="col-2">
+                  <h5>Features</h5>
+                  <a href="#">Link Shortening</a> <br>
+                  <a href="#">Branded Links</a> <br>
+                  <a href="#">Analytics</a>
+              </div>
+              <div class="col-2">
+                <h5>Resources</h5>
+                <a href="#">Blog</a> <br>
+                <a href="#">Developers</a> <br>
+                <a href="#">Support</a>
+              </div>
+              <div class="col-2">
+                <h5>Company</h5>
+                <a href="#">About</a> <br>
+                <a href="#">Our Team</a> <br>
+                <a href="#">Careers</a> <br>
+                <a href="#">Contacts</a>
+              </div>
+              <div class="col-3">
+                  <div class="_links">
+                      <a href="http://"><img src="/images/icon-facebook.svg" alt=""></a>
+                      <a href="http://"><img src="/images/icon-twitter.svg" alt=""></a>
+                      <a href="http://"><img src="/images/icon-pinterest.svg" alt=""></a>
+                      <a href="http://"><img src="/images/icon-instagram.svg" alt=""></a>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="behaviour.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.d-flex .btn{
+    margin-right: 10px;
+}
+.container-fluid{
+    margin: auto 5%;
+    background-color: white;
+}
+.navbar-brand{
+    color: black;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+    padding: 20px 10px 5px;
+}
+.nav-link{
+    color: black;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+    padding: 5px 10px;
+}
+.nav-link:hover{
+    background-color: rgb(142,221,218);
+    color: white;
+}
+.btn{
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(142,221,218);
+    color: white;
+}
+._1{
+    margin: 2% 10%;
+}
+._1 h1{
+    font-size: 80px;
+    padding-right:20%;
+    font-weight: 900;
+}
+._1 p {
+    padding-right: 30%;
+}
+._1 img{
+    width: 120%;
+}
+._1 button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(142,221,218);
+    color: white;
+    margin-top: 30px;
+}
+._2{
+    background-color: rgb(236,237,244);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shorten{
+    background-color: rgb(57, 48, 90);
+    margin: 5% 10% 1%;
+    padding: 3% 0%;
+    border-radius: 15px;
+}
+.shorten form{
+    display: block;
+    margin-left: 5%;
+}
+.shorten input{
+    width:75%;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: large;
+}
+.shorten button{
+    float: right;
+    color: white;
+    background-color: rgb(142,221,218);
+    margin-right: 40px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+}
+.item{
+    margin: 2% 10%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px 15px;
+}
+.item button{
+    float: right;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(142,221,218);
+    padding: 10px 20px;
+}
+.item a{
+    float: right;
+    padding-top: 10px;
+}
+.item p{
+    padding-top: 10px;
+    display: inline-block;
+}
+.err{
+    color:red;
+}
+.ad_st{
+    margin-top: 10%;
+    text-align: center;
+}
+.par{
+    color: rgb(151, 151, 161);
+    text-align: center;
+    margin-bottom: 5%;
+}
+.perks{
+    margin: 3% 10%;
+    padding-bottom: 5%;
+}
+.col-lg-4{
+    background-color: white;
+    width: 30%;
+    margin-right: 3%;
+    padding: 10px 30px;
+}
+.lst{
+    margin-right: 0;
+}
+.perks img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgb(57, 48, 90);
+    border-radius: 100%;
+}
+.col-lg-4 p{
+    color: rgb(151, 151, 161);
+}
+.boost{
+    background-color: rgb(43, 35, 67);
+    padding-bottom: 3%;
+}
+.boost h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.boost button{
+    display: block;
+    margin:auto;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(142,221,218);
+    color: white;
+}
+footer{
+    background-color: rgb(26, 24, 30);
+    padding: 3% 10%;
+}
+footer h5{
+    color: white;
+}
+footer a{
+    color: rgb(151, 151, 161);
+    text-decoration: none;
+    font-weight: 100;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+    font-size: 15px;
+}
+footer a:hover{
+    color: rgb(142,221,218);
+}
+._links a{
+    margin-right: 20px;
+}
+._links a img{
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+._links a img:hover{
+    background-color: rgb(142,221,218);
+    border-radius: 100%;
+}
+.logo{
+    color: white;
+    font-size: xx-large;
+}
+@media only screen and (max-width:1290px) {
+    .shorten input{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:998px) {
+    .item p, .item a{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:991px) {
+    .col-lg-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .boost button{
+        margin-bottom: 10%;
+    }
+    .btn{
+        display: block;
+        margin-left: 10px;
+    }
+    .nav-link{
+        padding: 10px 20px !important;
+    }
+    .nav-item{
+        display: flex;
+        padding: 5px 10px;
+    }
+    .d-flex{
+        display:block !important;
+    }
+}
+@media only screen and (max-width:830px) {
+    footer a, footer h5{
+        font-size: small;
+    }
+    .shorten button{
+        padding: 10px 20px;
+        margin-top:4px;
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width:450px){
+    .shorten input{
+        font-size: medium;
+    }
+}
+@media only screen and (max-width:400px){
+    .shorten input{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:390px){
+    .item button{
+        font-size: 10px;
+    }
+    .shorten button{
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width:360px){
+    .item button{
+        font-size: 6px;
+    }
+    .shorten button{
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width:500px){
+    .item p{
+        display: none;
+    }
+    .item a{
+        float: none;
+        font-size: 15px;
+    }
+    .item{
+        padding-bottom: 31px;
+    }
+    .shorten button{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:630px) {
+    .col-3, .col-2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
